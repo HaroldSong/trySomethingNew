@@ -1,0 +1,108 @@
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p{
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px;
+}
+
+body{
+	text-align: center;
+	height:666px;
+	background-image:url(imgs/2.png);
+	background-repeat: no-repeat;
+  	background-size: 100%;
+}
+
+ul{
+	list-style: none;
+}
+
+img,a.img{
+	border:0px;
+	text-decoration: none;
+	border-radius: 5em;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    cursor: pointer;
+}
+
+
+a{
+	color: #00868b;
+	text-decoration: none;
+}
+
+.top ul{
+	text-align: right;
+}
+.top li{
+	display:inline; 
+	height:40px;
+	text-align:center
+}
+
+.top li a{
+	display:inline-block; 
+	padding:0 20px; 
+	height:42px; 
+	line-height:42px; 
+    color:#FFF; 
+    font-family:"Microsoft Yahei"; 
+    font-size:14px;
+}
+
+.top li a:hover{
+	background:#0095BB;
+	text-decoration:none;
+}
+
+.head{
+	margin: 0 auto;
+	padding-top: 96px;
+}
+
+.name{
+	margin: 0 auto;
+	text-decoration: none;
+	padding-top: 32px;
+	font:24px "Microsoft Yahei", sans-serif;
+}
+
+.lyric{
+	margin: 0 auto;
+	padding-top: 16px;
+	font:42px "Microsoft Yahei", sans-serif;
+	color: #2f4f4f;
+}
+
+.enter{
+	margin: 0 auto;
+	padding-top: 72px;
+	font-family: 'Microsoft Yahei', sans-serif;
+}
+
+.enter input[type="submit"]{
+	background-color:transparent;
+	border: 1px solid #ffffff;
+	width: 200px;
+	height: 50px;
+	outline: none;
+    font-size: 26px;
+    border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    cursor: pointer;
+}
+
+/*.enter input[type="submit"]:hover{
+
+} 
+*/
+
+.link{
+	padding-top: 84px;
+	font:12px "Microsoft Yahei", sans-serif;
+}
+
+.link li{
+	display:inline; 
+}

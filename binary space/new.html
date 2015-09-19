@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>New-Binary Space</title>
+	<link rel="stylesheet" href="imgs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="new.css" />
+	<script type="text/javascript">
+		function show_confirm(){
+			var r=confirm("需要为您保存起来吗？");
+			if (r==true) {
+				alert("已经为您保存");
+			}else{
+				alert("已经删除");
+			}
+			window.location.href='blogs.php';
+		}
+		function save(){
+			alert("已经为您保存");
+			window.location.href='blogs.php';
+		}
+		function enter(){
+			alert("已发布");
+			window.location.href='blogs.php';
+		}
+	</script>
+</head>
+<body>
+	<div class="main">
+		<nav>
+			<div class="logo"><a class="nm" href="main.php">HaroldSonG</a></div>
+			<ul>
+				<li><a href="blogs.php" class="active">返回</a></li>
+				<li><a href="#">草稿箱</a></li>
+				<li><a href="#">帮助</a></li>
+			</ul>
+		</nav>
+		<div class="input">
+			<div class="title">
+				<input class="tl" type="text" value="标题（可不填）" 
+				onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '标题（可不填）';}">
+			</div>
+			<div class="artical">
+				<textarea class="at" cols="600" rows="72"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+				</textarea>
+			</div>
+			<div class="btn">
+				<ul class="b">
+					<li class="delete">
+						<input type="submit" onclick="show_confirm()" value="取消">
+					</li>
+					<li class="save">
+						<input type="submit" onclick="save()" value="保存">
+					</li>
+					<li class="enter">
+						<input type="submit" onclick="enter()" value="发布">
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="bottom"></div>
+	</div>
+</body>
+</html>
+

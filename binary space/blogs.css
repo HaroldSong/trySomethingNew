@@ -1,0 +1,304 @@
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p{
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px;
+}
+
+body{
+	text-align: center;
+  	background-size: 100%;
+}
+
+ul{
+	list-style: none;
+}
+
+img,a.img{
+	border:0px;
+	text-decoration: none;
+	border-radius: 5em;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    cursor: pointer;
+}
+
+.banner{
+	min-height: 640px;
+}
+
+a{
+	color: #00fa9a;
+	text-decoration: none;
+}
+
+.top ul{
+	text-align: right;
+}
+.top li{
+	display:inline; 
+	height:40px;
+	text-align:center;
+}
+
+.top li a{
+	display:inline-block; 
+	padding:0 20px; 
+	height:42px; 
+	line-height:42px; 
+    color:#FFF; 
+    font-family:"Microsoft Yahei"; 
+    font-size:14px;
+}
+
+.top li a:hover{
+	background:#0095BB;
+	text-decoration:none;
+}
+
+.head{
+	margin: 0 auto;
+	padding-top: 72px;
+}
+
+.name{
+	margin: 0 auto;
+	text-decoration: none;
+	padding-top: 28px;
+	font:18px "Microsoft Yahei", sans-serif;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 24px;
+}
+
+p{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.hr{
+	height: 2px;
+	width: 100%;
+	margin:20px auto;
+}
+
+.green{
+	text-align: center;
+	background-color: transparent;
+	color: #fff;
+	padding: 50px 0px;
+	font-family:"Microsoft Yahei"; 
+}
+
+.green .hr{
+	background-color: #ff6a6a;
+	width: 60%;
+	margin-top: 25px;
+}
+
+.hr{
+	width: 100%;
+	height: 2px;
+	margin:  0 auto;
+	margin-bottom: 20px;
+}
+
+.green .wrapper .icongroup .icon1,.icon2,.icon3{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border: #0D6F7C 1px solid;
+	transform: rotate(45deg);
+	margin: 40px;
+}
+
+.icongroup{
+	margin-top: 30px;
+}
+
+.wrapper{
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+
+.gray{
+	height: 100%;
+	color: #fff;
+	background: transparent;
+	padding: 160px;
+	font-family:"Microsoft Yahei"; 
+}
+
+.gray .preview
+{
+	height: 50%;
+}
+
+.gray .img-section{
+	width: 45%;
+	height: 100%;
+	font-size: 0;
+}
+
+.img-section img{
+	width: 100%;
+}
+
+.gray .text{
+	width: 55%;
+}
+
+.preview{
+	width:100%;
+}
+
+.gray .preview > div {
+	float:left;
+}
+
+.preview:nth-child(odd){
+	background-color: rgba(0,0,0,0.06);
+}
+
+.preview:nth-child(even){
+	background-color: rgba(0,0,0,0.16);
+}
+
+.clear:after{
+	content:''; 
+	display:block; 
+	clear:both;
+}
+
+.text{
+	position: relative;
+	top: 28px;
+	left: 50px;
+}
+
+.text h2{
+	margin-bottom: 25px;
+	font-size: 36px;
+	letter-spacing: 5px;
+}
+
+.text p{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.text >*{
+	max-width: 80%;
+}
+
+.purple{
+	background: transparent;
+	color: #fff;
+	padding: 60px 220px;
+	font-family:"Microsoft Yahei"; 
+}
+
+.purple h2{
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	font-size: 36px;
+	font-family:"Microsoft Yahei";
+	letter-spacing: 5px;
+}
+
+.purple h3{
+	margin: 0 auto;
+	font-size: 28px;
+	font-family:"Microsoft Yahei";
+	letter-spacing: 5px;
+}
+
+.purple p{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	font-family:"Microsoft Yahei";
+	font-size: 18px;
+	letter-spacing: 4px;
+}
+
+.purple .head-wrapper{
+	text-align: center;
+}
+
+.purple .hr{
+	background: #373259;
+	width: 60%; 
+}
+
+.cardgroup{
+	margin:0 auto;
+	padding: 0 auto;
+}
+
+.card{
+	float: left;
+	width: 50%;
+	min-height: 270px;
+	text-align: center;
+	padding: 50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.card:first-child{
+	background: rgba(0,0,0,0.04);
+}
+
+.card:nth-child(2){
+	background: rgba(0,0,0,0.08);
+}
+
+.card:nth-child(3){
+	background: rgba(0,0,0,0.12);
+}
+
+.card:nth-child(4){
+	background: rgba(0,0,0,0.16);
+}
+
+.card:nth-child(5){
+	background: rgba(0,0,0,0.20);
+}
+
+.card:nth-child(6){
+	background: rgba(0,0,0,0.24);
+}
+
+.card p{
+	padding-top: 35px;
+}
+
+.foot{
+	padding-top: 108px;
+	padding-bottom: 64px;
+	font:12px "Microsoft Yahei", sans-serif;
+}
+
+.foot li{
+	display:inline; 
+}
+
+.main{
+	background-image:url(imgs/8.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	font-size:0;
+	background-color:#fff;
+	min-height: 1024px;
+}
+
+
